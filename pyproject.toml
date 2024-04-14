@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ffix-related"
+version = "0.1.0"
+description = ""
+authors = ["zf109 <zhe.feng0018@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.4"
+ipython = "^8.23.0"
+pydantic-core = "^2.18.1"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
